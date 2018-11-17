@@ -1,5 +1,5 @@
 FROM debian:wheezy
-RUN apt-get apt-get install -y nano
+RUN apt-get install -y nano
 RUN apt-get update && \
     apt-get install -y nginx && \
     rm -rf /var/lib/apt/lists/*
